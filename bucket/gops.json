@@ -1,0 +1,8 @@
+{
+    "version": "2.1.1",
+    "license": "unlicense",
+    "url": "https://github.com/endowdly/gops.git",
+    "psmodule": {
+        "name": "GoPS"
+    }
+}
