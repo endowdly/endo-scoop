@@ -1,7 +1,10 @@
 {
     "version": "2.1.1",
     "license": "unlicense",
-    "url": "https://github.com/endowdly/gops.git",
+    "url": "https://github.com/endowdly/GoPS/archive/refs/heads/master.zip",
+    "checkver": {
+        "github": "https://github.com/endowdly/GoPS"
+    },
     "psmodule": {
         "name": "GoPS"
     }
