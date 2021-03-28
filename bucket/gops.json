@@ -1,7 +1,9 @@
 {
-    "version": "2.1.1",
+    "version": "2.2.0",
     "license": "unlicense",
-    "url": "https://github.com/endowdly/GoPS/archive/refs/heads/master.zip",
+    "homepage": "https://github.com/endowdly/gops",
+    "url": "https://github.com/endowdly/GoPS/releases/tag/2.2.0",
+    "extract_dir": "GoPS",
     "checkver": {
         "github": "https://github.com/endowdly/GoPS"
     },

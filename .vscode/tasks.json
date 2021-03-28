@@ -1,0 +1,97 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Check Urls",
+            "detail": "Execute check url.",
+            "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true"
+                }
+            },
+            "command": ".\\bin\\Test-ManifestUrl.ps1",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+         {
+            "label": "Test",
+            "detail": "Execute Pester tests in repository root directory.",
+            "type": "shell",
+            "command": ".\\bin\\Test-Repo.ps1",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Missing Checkver",
+            "detail": "Check if manifests have checkver and autoupdate properties.",
+            "type": "shell",
+            "command": ".\\bin\\Test-CheckVer.ps1;",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Test Json Schema",
+            "detail": "Checks the manifests' schema for validity",
+            "type": "shell",
+            "command": "pwsh .\\bin\\Test-BucketSchema.ps1",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+            },
+            "group": "test",
+        },
+         {
+            "label": "Check and update (Actual)",
+            "detail": "Custom version check with auto push",
+            "type": "shell",
+            "options": {
+                "env": {
+                    "SCOOP_DEBUG": "true"
+                }
+            },
+            "command": ".\\bin\\Invoke-Update.ps1",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "problemMatcher": [],
+            "runOptions": {
+                "reevaluateOnRerun": false
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+    ]
+}
