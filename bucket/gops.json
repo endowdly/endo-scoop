@@ -3,7 +3,6 @@
     "license": "unlicense",
     "homepage": "https://github.com/endowdly/gops",
     "url": "https://github.com/endowdly/GoPS/archive/refs/tags/2.2.0.zip",
-    "extract_dir": "GoPS",
     "checkver": {
         "github": "https://github.com/endowdly/GoPS"
     },
