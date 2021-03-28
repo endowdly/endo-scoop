@@ -1,12 +1,17 @@
 {
     "version": "2.2.0",
-    "license": "unlicense",
+    "description": "Quickly navigate the file system with bookmarked Entry objects and directory stacks!",
     "homepage": "https://github.com/endowdly/gops",
-    "url": "https://github.com/endowdly/GoPS/archive/refs/tags/2.2.0.zip",
-    "checkver": {
-        "github": "https://github.com/endowdly/GoPS"
-    },
+    "license": "unlicense",
+    "url": "https://github.com/endowdly/GoPS/archive/2.2.0.zip",
+    "hash": "3c6181a533e5270a89355520c811a234a1146cfa",
+    "extract_dir": "GoPS-2.2.0",
     "psmodule": {
         "name": "GoPS"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/endowdly/GoPS/archive/$version.zip",
+        "extract_dir": "GoPS-$version"
     }
 }
