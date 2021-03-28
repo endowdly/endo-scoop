@@ -4,7 +4,7 @@
     "homepage": "https://github.com/endowdly/gops",
     "license": "unlicense",
     "url": "https://github.com/endowdly/GoPS/archive/refs/tags/2.2.0.zip",
-    "hash": "3c6181a533e5270a89355520c811a234a1146cfa",
+    "hash": "FA7A4694A7D52DFCA51AF15D5644D211B0D7CB40AE128BE3C872FAB587ADBCCA",
     "extract_dir": "GoPS-2.2.0",
     "psmodule": {
         "name": "GoPS"
