@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "description": "Sparklines for PowerShell!",
+    "homepage": "https://github.com/endowdly/psparklines",
+    "license": "unlicense",
+    "url": "https://github.com/endowdly/PSparklines/archive/refs/tags/1.0.0.zip",
+    "hash": "A77B644501ECEB3D5B20D8565FBF9FF2FF3B736B9B7772076C24C1A843A681E3",
+    "extract_dir": "PSparklines-1.0.0",
+    "psmodule": {
+        "name": "PSparklines"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/endowdly/PSparklines/archive/$version.zip",
+        "extract_dir": "PSparklines-$version"
+    }
+}
