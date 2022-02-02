@@ -4,6 +4,7 @@
     "homepage": "https://github.com/endowdly/psparklines",
     "license": "unlicense",
     "url": "https://github.com/endowdly/PSparklines/archive/refs/tags/1.0.1.zip",
+    "hash": "e82f868473d371aade087d0856618be70079a49999e8515e9d96524552297008",
     "extract_dir": "PSparklines-1.0.1",
     "psmodule": {
         "name": "PSparklines"
