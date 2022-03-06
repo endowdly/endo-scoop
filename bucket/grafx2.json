@@ -12,6 +12,12 @@
             "grafx2"
         ]
     ],
+    "shortcut": [
+        [
+            "bin\\grafx2-win32.exe",
+            "GrafX2"
+        ]
+    ],
     "suggest": {
         "Lua": [
             "main/lua-for-windows",
