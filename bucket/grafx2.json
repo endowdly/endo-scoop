@@ -12,7 +12,7 @@
             "grafx2"
         ]
     ],
-    "shortcut": [
+    "shortcuts": [
         [
             "bin\\grafx2-win32.exe",
             "GrafX2"
