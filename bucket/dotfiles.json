@@ -3,7 +3,7 @@
     "description": "",
     "homepage": "https://github.com/endowdly/dotfiles",
     "license": "unlicense",
-    "url": "https://github.com/endowdly/DotFiles/archive/refs/tags/1.0.0.zip",
+    "url": "https://github.com/endowdly/DotFiles/releases/tag/1.0.0.zip",
     "hash": "201626BA3E8D424233D221B9BD896207427FAF869535F64C03DF706307DCC644",
     "extract_dir": "DotFiles-1.0.0",
     "psmodule": {
