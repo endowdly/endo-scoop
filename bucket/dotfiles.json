@@ -1,11 +1,11 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "homepage": "https://github.com/endowdly/dotfiles",
     "license": "unlicense",
-    "url": "https://github.com/endowdly/DotFiles/archive/refs/tags/1.0.0.zip",
-    "hash": "139817E6FE28E0579C6A664FC5EB61CB1D60F18A9FB583F39D4E05C446F6EF7A",
-    "extract_dir": "DotFiles-1.0.0",
+    "url": "https://github.com/endowdly/DotFiles/archive/refs/tags/1.0.1.zip",
+    "hash": "9CA18F543FE0FF43B993F3B267EF39A248434813DF1978E859730AC678799A26",
+    "extract_dir": "DotFiles-1.0.1",
     "psmodule": {
         "name": "DotFiles"
     },
