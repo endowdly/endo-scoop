@@ -1,0 +1,14 @@
+{
+    "version": "0.1.2",
+    "description": "CLI timezone info",
+    "homepage": "https://github.com/merschformann/gotz",
+    "license": "MIT",
+    "url": "https://github.com/merschformann/gotz/releases/download/v0.1.2/gotz_windows_amd64.exe",
+    "hash": "D19E51F464BE722DDE4C5865F4D9964DF1BAC104C69147AF8CF2EC9DA45E79C0",
+    "bin": [
+        [
+            "gotz_windows_amd64.exe",
+            "gotz"
+        ]
+    ]
+}
