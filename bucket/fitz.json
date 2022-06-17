@@ -7,7 +7,7 @@
     "hash": "9EC9E90538FC53D466174709F5D86869627B9C6F25578F740EF649F80B45FC2D",
     "bin": [
         [
-            "win-x86-fitz.exe",
+            "win10-x86-fitz.exe",
             "fitz"
         ]
     ]
