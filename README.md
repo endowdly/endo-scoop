@@ -7,6 +7,7 @@ scoop bucket to install modules by endowdly
 ### Command-Line
 
 - [Gotz](https://github.com/merschformann/gotz)
+- [Fitz](https://github.com/endowdly/fitz)
 - [Cercis](https://github.com/endowdly/cercis) _(when released)_
 
 ### Extras
