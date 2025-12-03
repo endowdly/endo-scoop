@@ -3,7 +3,7 @@
   "description": "The ultimate 256 color painting program.",
   "homepage": "http://grafx2.chez.com/",
   "license": "GNUGPL-1.0-or-later",
-  "url": "https://gitlab.com/GrafX2/grafX2/-/jobs/12059974840/artifacts/file/grafx2-win32-2.9.3250-win32.zip",
+  "url": "https://gitlab.com/GrafX2/grafX2/-/jobs/12059974840/artifacts/raw/grafx2-win32-2.9.3250-win32.zip",
   "extract-to": "grafx2",
   "bin": [
     [
